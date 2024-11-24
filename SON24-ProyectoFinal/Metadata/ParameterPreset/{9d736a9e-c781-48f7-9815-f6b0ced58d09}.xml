@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="ParameterPreset" id="{9d736a9e-c781-48f7-9815-f6b0ced58d09}">
+		<property name="name">
+			<value>TriggerSecondEvent</value>
+		</property>
+		<relationship name="folder">
+			<destination>{9d969d4a-0cd1-40d9-8d2c-5abc1d1da3e5}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{55f14eee-aea1-4e78-91d4-14ed9c795ca7}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{55f14eee-aea1-4e78-91d4-14ed9c795ca7}">
+		<property name="isGlobal">
+			<value>true</value>
+		</property>
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+		<property name="isExposedRecursively">
+			<value>false</value>
+		</property>
+	</object>
+</objects>
