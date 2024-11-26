@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="ParameterPreset" id="{95ba76d1-6172-41a1-8c4a-549905081476}">
+		<property name="name">
+			<value>SwitchLight</value>
+		</property>
+		<relationship name="folder">
+			<destination>{9d969d4a-0cd1-40d9-8d2c-5abc1d1da3e5}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{afd70b5c-4b16-4dca-a921-c02682216eda}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{afd70b5c-4b16-4dca-a921-c02682216eda}">
+		<property name="parameterType">
+			<value>1</value>
+		</property>
+		<property name="maximum">
+			<value>2</value>
+		</property>
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+	</object>
+</objects>
