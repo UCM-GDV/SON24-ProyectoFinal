@@ -8,6 +8,7 @@ public class RandomSceneLoader : MonoBehaviour
 {
     public float delayInSeconds = 10.0f;
     public List<int> sceneIndexes;
+    public int finalSceneIndex;
     private List<int> shuffledScenes;
 
     public Canvas canvas;
@@ -40,7 +41,10 @@ public class RandomSceneLoader : MonoBehaviour
             yield return StartCoroutine(FadeOut());
             yield return new WaitForSeconds(delayInSeconds);
         }
-        // Anadir escena final
+        // Escena final
+        yield return StartCoroutine(FadeIn());
+        SceneManager.LoadScene(finalSceneIndex);
+        yield return StartCoroutine(FadeOut());
     }
 
     IEnumerator FadeIn()

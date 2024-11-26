@@ -320,6 +320,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   delayInSeconds: 10
   sceneIndexes: 0100000002000000
+  finalSceneIndex: 3
   canvas: {fileID: 1698067244}
   fadeImage: {fileID: 1665927169}
   crosshair: {fileID: 806415194}

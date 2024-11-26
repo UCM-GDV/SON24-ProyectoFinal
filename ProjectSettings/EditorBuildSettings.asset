@@ -14,7 +14,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Day 2.unity
     guid: a41fc13cbe8ee6b499f886e3664c0d7e
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/Final day.unity
     guid: d048182acf91ca045b6dbf61145538c2
   m_configObjects: {}
