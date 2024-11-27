@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="AudioFile" id="{223fa90d-ca55-4d41-a39f-49cab6c984eb}">
 		<property name="assetPath">
-			<value>Animal Bird American Goldfinch Chirp 01.wav</value>
+			<value>pajaro1.wav</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>48</value>
