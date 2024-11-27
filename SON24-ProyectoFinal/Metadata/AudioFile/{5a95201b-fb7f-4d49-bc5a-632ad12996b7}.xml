@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="AudioFile" id="{5a95201b-fb7f-4d49-bc5a-632ad12996b7}">
 		<property name="assetPath">
-			<value>ninoRisa.mp3</value>
+			<value>ninos/ninoRisa.mp3</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>24</value>

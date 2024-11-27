@@ -385,7 +385,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e55b33e505e5f214d97d8877b6065a50, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  delayInSeconds: 30
+  delayInSeconds: 20
   sceneIndexes: 0100000002000000
   finalSceneIndex: 3
   canvas: {fileID: 1698067244}
@@ -919,6 +919,7 @@ GameObject:
   - component: {fileID: 1460222767}
   - component: {fileID: 1460222766}
   - component: {fileID: 1460222765}
+  - component: {fileID: 1460222769}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -1049,6 +1050,37 @@ Camera:
   m_OcclusionCulling: 1
   m_StereoConvergence: 10
   m_StereoSeparation: 0.022
+--- !u!114 &1460222769
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1460222763}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: 1065991219
+      Data2: 1311492733
+      Data3: -303598195
+      Data4: 133420617
+    Path: event:/respiroSuspiro
+  Event: 
+  EventPlayTrigger: 11
+  EventStopTrigger: 12
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  NonRigidbodyVelocity: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1 &1516634216
 GameObject:
   m_ObjectHideFlags: 0

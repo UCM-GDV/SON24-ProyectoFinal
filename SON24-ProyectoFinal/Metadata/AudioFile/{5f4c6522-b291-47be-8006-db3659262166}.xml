@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="AudioFile" id="{5f4c6522-b291-47be-8006-db3659262166}">
 		<property name="assetPath">
-			<value>ninoGrito.mp3</value>
+			<value>gritos/grito1.mp3</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>24</value>

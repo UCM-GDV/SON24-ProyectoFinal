@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{fe43472b-4219-46b7-b173-e739afba83d4}">
+		<property name="assetPath">
+			<value>humano/respiracion/inhale1.ogg</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>0.62983333333333336</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{4c67c353-5c0e-431d-9131-a05b9f31b71d}</destination>
+		</relationship>
+	</object>
+</objects>

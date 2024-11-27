@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="AudioFile" id="{5a404e21-2006-42bc-8742-a74dfcde7d24}">
 		<property name="assetPath">
-			<value>andarTecho.mp3</value>
+			<value>casa/andarTecho.mp3</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>44.0999985</value>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{368feffe-c6db-447d-a72e-f365ac8126b2}">
+		<property name="assetPath">
+			<value>humano/heartbeat.ogg</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>0.37024943310657599</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{4c67c353-5c0e-431d-9131-a05b9f31b71d}</destination>
+		</relationship>
+	</object>
+</objects>

@@ -111,10 +111,10 @@
 			<value>4</value>
 		</property>
 		<property name="minimumTimeBetweenSounds">
-			<value>40000</value>
+			<value>16000</value>
 		</property>
 		<property name="maximumTimeBetweenSounds">
-			<value>100000</value>
+			<value>24000</value>
 		</property>
 		<property name="spawnRate">
 			<value>500</value>

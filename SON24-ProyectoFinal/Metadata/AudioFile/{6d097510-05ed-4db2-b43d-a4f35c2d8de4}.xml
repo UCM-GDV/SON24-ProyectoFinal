@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="AudioFile" id="{6d097510-05ed-4db2-b43d-a4f35c2d8de4}">
 		<property name="assetPath">
-			<value>ticktock.ogg</value>
+			<value>casa/reloj.ogg</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>24</value>

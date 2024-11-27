@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="AudioFile" id="{2bdecf41-37a0-4402-b0ba-16d522256a4f}">
 		<property name="assetPath">
-			<value>peep.wav</value>
+			<value>humano/peep.wav</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>96</value>

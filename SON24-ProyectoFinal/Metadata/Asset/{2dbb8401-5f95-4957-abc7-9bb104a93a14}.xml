@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="EncodableAsset" id="{2dbb8401-5f95-4957-abc7-9bb104a93a14}">
+		<property name="assetPath">
+			<value>humano/</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{4c67c353-5c0e-431d-9131-a05b9f31b71d}</destination>
+		</relationship>
+	</object>
+</objects>

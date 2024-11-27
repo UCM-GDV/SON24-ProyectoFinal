@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="AudioFile" id="{9c906c9f-c12f-4403-9cba-0fcb51917458}">
 		<property name="assetPath">
-			<value>ninoHola3.ogg</value>
+			<value>ninos/ninoHola3.ogg</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>24</value>

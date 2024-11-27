@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="AudioFile" id="{d43f076e-67d2-4ded-a19e-b893f8ff2319}">
 		<property name="assetPath">
-			<value>apagarLuz.ogg</value>
+			<value>casa/luz/apagarLuz.ogg</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>44.0999985</value>

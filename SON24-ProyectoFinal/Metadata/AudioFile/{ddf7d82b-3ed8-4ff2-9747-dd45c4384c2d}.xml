@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="AudioFile" id="{ddf7d82b-3ed8-4ff2-9747-dd45c4384c2d}">
 		<property name="assetPath">
-			<value>ninos.ogg</value>
+			<value>ninos/ninos.ogg</value>
 		</property>
 		<property name="isStreaming">
 			<value>true</value>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{7c23eff5-8c77-45f0-967a-d6885b17fe45}">
+		<property name="assetPath">
+			<value>humano/Human Crowd Footsteps Running And Screaming 02.wav</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>28.160062499999999</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{4c67c353-5c0e-431d-9131-a05b9f31b71d}</destination>
+		</relationship>
+	</object>
+</objects>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="DataFile" id="{4d5f5446-7d26-48de-a6a7-961d35a7331d}">
+		<property name="assetPath">
+			<value>armas/Weapon Gun Rifle M16 Single Shot Interior Shooting Range 02.wav.meta</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{4c67c353-5c0e-431d-9131-a05b9f31b71d}</destination>
+		</relationship>
+	</object>
+</objects>

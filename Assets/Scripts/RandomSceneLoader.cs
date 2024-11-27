@@ -1,5 +1,7 @@
+using FMODUnity;
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
@@ -17,12 +19,15 @@ public class RandomSceneLoader : MonoBehaviour
     public float fadeDuration = 1.0f;
 
     public GameObject myCamera;
+    private StudioEventEmitter respiroSuspiro;
 
     void Awake()
     {
         myCamera.SetActive(false);
         DontDestroyOnLoad(gameObject);
         ShuffleScenes();
+        respiroSuspiro = myCamera.GetComponent<StudioEventEmitter>();
+        respiroSuspiro.enabled = false;
     }
 
     public void StartLoadingScenes()
@@ -37,12 +42,14 @@ public class RandomSceneLoader : MonoBehaviour
         foreach (int sceneIndex in shuffledScenes)
         {
             yield return StartCoroutine(FadeIn());
+            respiroSuspiro.enabled = true;
             SceneManager.LoadScene(sceneIndex);
             yield return StartCoroutine(FadeOut());
             yield return new WaitForSeconds(delayInSeconds);
         }
         // Escena final
         yield return StartCoroutine(FadeIn());
+        respiroSuspiro.enabled = false;
         SceneManager.LoadScene(finalSceneIndex);
         yield return StartCoroutine(FadeOut());
     }
