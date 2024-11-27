@@ -263,6 +263,7 @@ MonoBehaviour:
   - Day2
   - Day3
   - FinalDay
+  - Menu
   BanksToLoad: []
   LiveUpdatePort: 9264
   EnableMemoryTracking: 0

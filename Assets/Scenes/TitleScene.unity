@@ -133,6 +133,9 @@ GameObject:
   - component: {fileID: 456228543}
   - component: {fileID: 456228542}
   - component: {fileID: 456228541}
+  - component: {fileID: 456228544}
+  - component: {fileID: 456228546}
+  - component: {fileID: 456228545}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: Untagged
@@ -214,6 +217,69 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &456228544
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 456228540}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b9468c5f457ace64f8d4df6d642b107f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  LoadEvent: 1
+  UnloadEvent: 2
+  Banks:
+  - Menu
+  CollisionTag: 
+  PreloadSamples: 0
+--- !u!114 &456228545
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 456228540}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: 1214125930
+      Data2: 1264347735
+      Data3: 628541859
+      Data4: -1870845709
+    Path: event:/menuLoop
+  Event: 
+  EventPlayTrigger: 1
+  EventStopTrigger: 2
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  NonRigidbodyVelocity: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
+--- !u!114 &456228546
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 456228540}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 86c6556701af9e04380698b89f691b6e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nonRigidbodyVelocity: 0
+  attenuationObject: {fileID: 0}
 --- !u!1 &806415192
 GameObject:
   m_ObjectHideFlags: 0
@@ -299,6 +365,7 @@ GameObject:
   m_Component:
   - component: {fileID: 924211848}
   - component: {fileID: 924211847}
+  - component: {fileID: 924211849}
   m_Layer: 0
   m_Name: GameManager
   m_TagString: Untagged
@@ -318,7 +385,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e55b33e505e5f214d97d8877b6065a50, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  delayInSeconds: 10
+  delayInSeconds: 30
   sceneIndexes: 0100000002000000
   finalSceneIndex: 3
   canvas: {fileID: 1698067244}
@@ -343,6 +410,28 @@ Transform:
   - {fileID: 1460222764}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &924211849
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 924211846}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b9468c5f457ace64f8d4df6d642b107f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  LoadEvent: 1
+  UnloadEvent: 2
+  Banks:
+  - Day1
+  - Day2
+  - Day3
+  - FinalDay
+  - Menu
+  CollisionTag: 
+  PreloadSamples: 0
 --- !u!1 &1014935771
 GameObject:
   m_ObjectHideFlags: 0
