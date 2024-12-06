@@ -10,7 +10,7 @@ public class LoopEvent : MonoBehaviour
     FMODUnity.EventReference breatheEvent;
     FMOD.Studio.EventInstance breathe;
     [SerializeField]
-    float nervSpeed = 1.0f;
+    float nervSpeed = 0.1f;
     float cont = 0.0f;
     
     public void Start()
@@ -22,10 +22,9 @@ public class LoopEvent : MonoBehaviour
     // Update is called once per frame
     public void Update()
     {
-        if(cont < 1.0f) {
-            cont += nervSpeed * Time.deltaTime;
-            Mathf.Clamp(cont, 0.0f, 1.0f);
-            FMODUnity.RuntimeManager.StudioSystem.setParameterByName("Nervousness", cont);
+        print(cont);
+        if(cont < 25.0f) {
+            FMODUnity.RuntimeManager.StudioSystem.setParameterByName("Nervousness", cont / 25.0f);
         }
         if (breathe.isValid())
         {
@@ -36,6 +35,8 @@ public class LoopEvent : MonoBehaviour
                 breathe.start();
             }
         }
+
+        cont += nervSpeed * Time.deltaTime;
     }
 
 
