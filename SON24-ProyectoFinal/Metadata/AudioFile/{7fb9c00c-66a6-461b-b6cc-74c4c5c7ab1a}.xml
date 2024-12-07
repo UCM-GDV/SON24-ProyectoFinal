@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="AudioFile" id="{7fb9c00c-66a6-461b-b6cc-74c4c5c7ab1a}">
 		<property name="assetPath">
-			<value>humano/respiracion/inhale2-2.wav</value>
+			<value>humano/respiracion/inspiro2.wav</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>44.0999985</value>

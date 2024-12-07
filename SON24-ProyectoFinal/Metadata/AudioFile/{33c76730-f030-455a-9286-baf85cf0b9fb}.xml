@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="AudioFile" id="{33c76730-f030-455a-9286-baf85cf0b9fb}">
 		<property name="assetPath">
-			<value>gatos/06-catScream1.wav</value>
+			<value>gatos/gato6.wav</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>44.0999985</value>

@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="AudioFile" id="{702b04ab-9445-4f64-a066-2a8ec4301433}">
 		<property name="assetPath">
-			<value>02-259733__yoh__bad-fluorescent-lamp-clicks.wav</value>
+			<value>casa/bombilla/bombilla2.wav</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>44.0999985</value>

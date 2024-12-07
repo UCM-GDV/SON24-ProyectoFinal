@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="AudioFile" id="{81d2ce3e-2812-45b0-a84d-f24ed65708e1}">
 		<property name="assetPath">
-			<value>humano/Human Swallow 02.wav</value>
+			<value>casa/lata/trago2.wav</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>48</value>

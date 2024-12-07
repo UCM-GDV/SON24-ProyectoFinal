@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="AudioFile" id="{20f41331-090a-4330-b83a-00818b0d05aa}">
 		<property name="assetPath">
-			<value>humano/heartbeat.wav</value>
+			<value>humano/latido.wav</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>48</value>
